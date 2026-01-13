@@ -1,3 +1,18 @@
+/*
+╔══════════════════════════════════════════════╗
+║ ⚠️  PERINGATAN PENTING                       ║
+║ ❌ Script ini TIDAK BOLEH DIPERJUALBELIKAN!  ║
+╠══════════════════════════════════════════════╣
+║ 🛠️ Version   : 1.1                           ║
+║ 👨‍💻 Developer : AbuZy Creative                ║
+║ 🌐 Website   : t.me/abuzycreative            ║
+║ 💻 GitHub    : github.com/PrabuSA123/        ║
+╠══════════════════════════════════════════════╣
+║ 📌 Open Source mulai 13 Januari 2026         ║
+║ 🔗 Bisa digunakan GRATIS & untuk edukasi     ║
+╚══════════════════════════════════════════════╝
+*/
+
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const QRCode = require('qrcode');
@@ -326,3 +341,4 @@ bot.onText(/\/saldo/, (msg) => {
 });
 
 console.log('🤖 BOT QRIS BY ABUZY BERJALAN DENGAN LANCAR BOSKU');
+
